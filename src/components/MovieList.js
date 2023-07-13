@@ -8,8 +8,8 @@ const MovieList = (props) => {
   const { movies, favoriteMovies } = props;
 
   return (
-    <div className="flex-1">
-      <div className="overflow-hidden bg-white rounded-md shadow mb-4 sm:min-h-[400px]">
+    <div className="flex-1 ">
+      <div className="overflow-hidden bg-white rounded-md shadow mb-4 sm:min-h-[400px] dark:bg-slate-700 dark:text-white">
         <table className="table-auto border-collapse text-left w-full">
           <thead>
             <tr className="border-zinc-200 border-b">
